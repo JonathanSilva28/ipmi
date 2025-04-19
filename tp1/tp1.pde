@@ -1,4 +1,4 @@
-PImage miImagen;
+PImage miImagen; //madrepatria
 
 void setup(){
   size(800,400);
@@ -11,7 +11,7 @@ void draw(){
   //cesped
   fill(219,209,211);
   stroke(106,125,52);
-  rect(400,380,400,400); //
+  rect(400,380,400,400); 
   image(miImagen,0,0,400,400); // Cubre la mitad izquierda
 
   //base piedra
